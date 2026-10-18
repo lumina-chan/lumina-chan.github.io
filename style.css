@@ -1,0 +1,120 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #1A0A04;
+  color: white;
+  text-align: left;
+  padding: 40px 20px;
+  line-height: 1.6;
+}
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+li{
+  margin-bottom: 12px;
+}
+.layout-container {
+  display: flex;
+}
+.right-sidebar {
+  flex: 0 0 200px;
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 0px;
+  margin-top: 40px;
+}
+.left-sidebar {
+  text-align: center;
+  flex: 0 0 320px;
+  padding-top: 30px;
+}
+.center-content {
+  flex: 1;      
+  padding: 0 40px;
+}
+.header-profile {
+  border-bottom: 1rem solid #6a3822;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+h1 span {
+  display: block;
+  font-weight: normal;
+  font-size: 0.5em;
+  margin-top: 0px;
+  color: #a1a1aa;
+  line-height: 1;
+}
+a:link {
+  color: white;
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out;
+}
+a:visited {
+  color: #a1a1aa;
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out;
+}
+a:hover {
+  color: #E0C3B1;
+  text-decoration: underline;
+}
+.footer-credit{
+  color: #52525b;
+  font-style: italic;
+  font-family: "Helvetica", sans-serif;
+}
+.theme-toggle{
+  background: transparent;
+  border: solid #a1a1aa;
+  color: #a1a1aa;
+  font-family: 'Courier New', monospace;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  position: sticky;
+  top: 40px;
+  height: max-content;
+}
+.theme-toggle:hover{
+  background: white;
+  color: #1A0A04;
+}
+footer {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 2px solid #663f2f;
+}
+h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-bottom: 2px dashed #754734; /* Adds a clean, subtle terminal divider line */
+  padding-bottom: 8px;
+}
+h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #E0C3B1; /* Gives your sub-sections a distinct highlight shade */
+}
+body.light-mode {
+  background-color: #EDE19D; 
+  color: #1A0A04;            
+}
+body.light-mode a {
+  color: #1A0A04;
+}
+body.light-mode h3{
+  color: #262422;
+}
+body.light-mode h1 span{
+  color: #1c1c1b;
+}
