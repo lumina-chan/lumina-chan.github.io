@@ -97,13 +97,13 @@ footer {
 h2 {
   margin-top: 50px;
   margin-bottom: 20px;
-  border-bottom: 2px dashed #754734; /* Adds a clean, subtle terminal divider line */
+  border-bottom: 2px dashed #754734; 
   padding-bottom: 8px;
 }
 h3 {
   margin-top: 30px;
   margin-bottom: 15px;
-  color: #E0C3B1; /* Gives your sub-sections a distinct highlight shade */
+  color: #E0C3B1; 
 }
 body.light-mode {
   background-color: #EDE19D; 
@@ -117,4 +117,16 @@ body.light-mode h3{
 }
 body.light-mode h1 span{
   color: #1c1c1b;
+}
+@media (max-width: 768px) {
+  .layout-container {
+    flex-direction: column;
+  }
+  .left-sidebar, .right-sidebar {
+    flex: unset;
+    width: 100%;
+  }
+  .center-content {
+    padding: 0 15px;
+  }
 }
