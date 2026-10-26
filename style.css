@@ -129,4 +129,11 @@ body.light-mode h1 span{
   .center-content {
     padding: 0 15px;
   }
+  .theme-toggle {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 9999;
+    margin: 0;
+  }
 }
