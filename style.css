@@ -136,4 +136,8 @@ body.light-mode h1 span{
     z-index: 9999;
     margin: 0;
   }
+  .right-sidebar {
+    margin-top: 20px;
+    align-items: center;
+   }
 }
