@@ -126,6 +126,11 @@ body.light-mode h1 span{
     flex: unset;
     width: 100%;
   }
+  .left-sidebar {
+    padding-top: 15px;
+    margin-bottom: 20px;
+    text-align: center; 
+  }
   .center-content {
     padding: 0 15px;
   }
@@ -133,11 +138,13 @@ body.light-mode h1 span{
     position: fixed;
     top: 15px;
     right: 15px;
-    z-index: 9999;
+    z-index: 9999; 
     margin: 0;
   }
+
   .right-sidebar {
     margin-top: 20px;
-    align-items: center;
-   }
+    align-items: center; 
+  }
 }
+
